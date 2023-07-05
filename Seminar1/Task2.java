@@ -6,7 +6,7 @@ public class Task2 {
 
         for(int i = 2; i <= 1000; i++){
             check = true;
-            for(int j = 2; j <= i; j++){
+            for(int j = 2; j <= i/2; j++){
                 if(i % j == 0 && i != j) {
                     check = false;
                 }
