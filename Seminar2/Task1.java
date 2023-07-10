@@ -9,7 +9,6 @@ public class Task1 {
 
     public static void main(String[] args) {
         String pathDirectory = System.getProperty("user.dir");
-        // String pathFile = pathDirectory.concat("\\Task1.java")
         fileFormat(showCurrentFiles(pathDirectory));
         
     }
